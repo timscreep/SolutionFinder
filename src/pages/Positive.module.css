@@ -1,0 +1,124 @@
+.positiveChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 480px;
+  height: 1080px;
+}
+.solutionFinder {
+  cursor: pointer;
+  position: absolute;
+  top: 27px;
+  left: 29px;
+  display: inline-block;
+  width: 447px;
+  height: 154px;
+}
+.positiveButtonOK {
+  width: 200px;
+  position: absolute;
+  top: 623px;
+  left: 220px;
+}
+
+.textBox0,
+.textBox1,
+.textBox2,
+.textBox3,
+.textBox4,
+.textBox5,
+.textBox6,
+.textBox7,
+.textBox8,
+.textBox9 {
+  width: 80px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  left: 376px;
+}
+.textBoxReason0,
+.textBoxReason1,
+.textBoxReason2,
+.textBoxReason3,
+.textBoxReason4,
+.textBoxReason5,
+.textBoxReason6,
+.textBoxReason7,
+.textBoxReason8,
+.textBoxReason9 {
+  width: 360px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+}
+
+.textBox1,
+.textBoxReason1 {
+  top: 40px;
+}
+.textBox2,
+.textBoxReason2 {
+  top: 80px;
+}
+.textBox3,
+.textBoxReason3 {
+  top: 120px;
+}
+.textBox4,
+.textBoxReason4 {
+  top: 160px;
+}
+.textBox5,
+.textBoxReason5 {
+  top: 200px;
+}
+.textBox6,
+.textBoxReason6 {
+  top: 240px;
+}
+.textBox7,
+.textBoxReason7 {
+  top: 280px;
+}
+.textBox8,
+.textBoxReason8 {
+  top: 320px;
+}
+.textBox9,
+.textBoxReason9 {
+  top: 360px;
+}
+
+.circles,
+.positive1 {
+  position: absolute;
+  top: 196px;
+  left: 10px;
+  width: 456px;
+  height: 383px;
+}
+.positive1 {
+  top: 85px;
+  left: 29px;
+  color: var(--color-seagreen);
+  display: inline-block;
+  width: 272px;
+  height: 73px;
+}
+.positive {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

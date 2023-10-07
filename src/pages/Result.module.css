@@ -1,0 +1,114 @@
+.resultChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 480px;
+  height: 1080px;
+}
+.solutionFinder {
+  cursor: pointer;
+  position: absolute;
+  top: 27px;
+  left: 29px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 447px;
+  height: 154px;
+}
+.resultItem {
+  width: 200px;
+  position: absolute;
+  top: 623px;
+  left: 220px;
+}
+
+.result1 {
+  position: absolute;
+  left: 29px;
+  display: inline-block;
+  width: 272px;
+  height: 73px;
+  cursor: pointer;
+  top: 85px;
+}
+
+
+
+.positiveTitle,
+.positiveValue{
+  position: absolute;
+  display: inline-block;
+
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+
+  top: 200px;
+  left: 343px;
+  height: 73px;
+  width: 117px;
+
+  color: var(--color-seagreen);
+}
+
+
+.negativeTitle,
+.negativeValue{
+  position: absolute;
+  display: inline-block;
+ 
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+
+  top: 325px;
+  left: 343px;
+  height: 73px;
+  width: 117px;
+
+  color: var(--color-palevioletred);
+}
+
+.negativeTitle,
+.positiveTitle
+ {
+  left: 29px;
+  width: 272px;
+}
+
+.resultValue,
+.resultTitle {
+  position: absolute;
+  left: 29px;
+  display: inline-block;
+  width: 272px;
+  height: 73px;
+  margin: 0;
+  top: 450px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.resultValue {
+  left: 343px;
+  width: 117px;
+}
+
+
+
+
+.result {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-darkgoldenrod);
+  font-family: var(--font-inter);
+}
